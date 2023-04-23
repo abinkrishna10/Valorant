@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
     background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png");
   }
-  25%{
+  27%{
     background-size: cover;
   background-repeat: no-repeat;
     background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png");
@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
     background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaae67d0ec5006ef5/63b8a78d28c9fb7a1880a9e2/Lotus_MapWebsite_Web.png");
   }
-  59%{
+  61%{
     background-size: cover;
   background-repeat: no-repeat;
     background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaae67d0ec5006ef5/63b8a78d28c9fb7a1880a9e2/Lotus_MapWebsite_Web.png");
@@ -28,7 +28,7 @@
     background-size: cover;
   background-repeat: no-repeat;
     background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4485163c8c5873c/6131b23e9db95e7ff74b6393/Valorant_FRACTURE_Minimap_Alpha_web.png");
-  }92%{
+  }94%{
     background-size: cover;
   background-repeat: no-repeat;
     background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4485163c8c5873c/6131b23e9db95e7ff74b6393/Valorant_FRACTURE_Minimap_Alpha_web.png");
@@ -51,10 +51,12 @@
   color: #e7515d;
 }
 
-.info{
+.info {
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
   font-size: large;
 }
+
 
 body {
   font-family: "Valorant";
@@ -1216,25 +1218,32 @@ section {
   padding: 20px 0;
   color: #2f4d5a;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  max-height: 95px;
+  max-height: 100px;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
 
-.team .member:hover .member-info {
-  max-height: 300px;
-}
 
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 16px;
-  color: #2f4d5a;
+  font-size: 30px;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 
-.team .member h4::after {
+.price{
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.team .member:hover .member-info {
+  background-color: #FF4655;
+  color: white;
+  scale: 1.01;
+  transition: color 0.2s;
+}
+
+/* .team .member h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -1243,7 +1252,7 @@ section {
   background: #b1cbd7;
   bottom: 0;
   left: calc(50% - 25px);
-}
+} */
 
 .team .member span {
   font-style: italic;
